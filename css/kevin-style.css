@@ -27,26 +27,29 @@ text-align: center;
   padding-bottom:20px;
 }
 .bg-4 {
-    background-color: #2f2f2f; /* Black Gray */
+    background-color: #333a56; /* Black Gray */
     color: #fff;
     padding-top: 30px;
     padding-bottom: 30px;
 }
 
 .navbar {
-  padding-top: 12.5px;
+  padding-top: 32.5px;
   padding-bottom: 15px;
   border: 0;
   border-radius: 0;
   margin-bottom: 0;
   font-size: 16px;
+
 }
 .navbar .navbar-nav {
   display: inline-block;
   float: none;
   vertical-align: top;
 }
-
+#main-nav li a {
+  color: #52658f;
+}
 .navbar .navbar-collapse {
   text-align: center;
 }
@@ -62,6 +65,16 @@ text-align: center;
 .custom-btn {
   background-color: #f0f0f0;
   border-radius: 0px;
+}
+#about-me {
+  background-color: #e8e8e8;
+}
+#contact {
+  background-color: #fff;
+}
+.container-fluid {
+  padding-top: 70px;
+  padding-bottom: 70px;
 }
 @media only screen and (min-width: 768px) {
   #full-page-landing {
@@ -82,7 +95,7 @@ text-align: center;
   }
   #main-nav {
       margin:0 auto;
-      height: 75px;
+      height: 125px;
   }
   #top-line {
     height: 150px;
@@ -120,6 +133,6 @@ text-align: center;
   }
   #main-nav {
       margin:0 auto;
-      height: 75px;
+      height: 125px;
   }
 }

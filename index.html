@@ -1,19 +1,27 @@
 <!DOCTYPE html>
 <html>
+<title>Kevin Thomas | Consultant &amp; Developer</title>
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 <style>
 body, html {
   height: 100%;
   margin: 0;
 }
-
 .bgimg {
-  background-image: url('/kpt_header.jpg');
+  background-image: url('./kpt_header.jpg');
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.bgimg-overlay {
+  background-color: rgba(0,0,0,0.5);
   height: 100%;
   background-position: center;
   background-size: cover;
   position: relative;
   color: white;
-  font-family: "Courier New", Courier, monospace;
+  font-family: "Roboto", "Courier New", Courier, monospace;
   font-size: 25px;
 }
 
@@ -35,6 +43,7 @@ body, html {
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
+  width: 85%;
 }
 
 hr {
@@ -45,14 +54,18 @@ hr {
 <body>
 
 <div class="bgimg">
+<div class="bgimg-overlay">
   <div class="topleft">
     <p>Kevin P. Thomas</p>
   </div>
   <div class="middle">
+    <h1>TECHNOLOGY CONSULTANT &amp; DEVELOPER</h1>
+    <hr/>
     <h1>COMING SOON</h1>
   </div>
   <div class="bottomleft">
     <p>Kevin Thomas &copy;2019</p>
+  </div>
   </div>
 </div>
 
